@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `TITLE`,
-    description: `DESCRIPTION.`,
+    title: `Türkiye'nin Güzellikleri`,
+    description: `Türkiye'nin güzelliklerini paylaşabileceğiniz, sizin fotoğraflarınızı barındıran bir resim sayfasıdır.`,
     author: `@mustafaberat`,
   },
   plugins: [
@@ -21,8 +21,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#C10116`,
+        theme_color: `#C10116`,
         display: `minimal-ui`,
       },
     },
