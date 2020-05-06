@@ -1,0 +1,18 @@
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+.titleContainer {
+  text-align: center;
+  font-weight: unset;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.gatsby-image-wrapper {
+  height: 240px;
+}
