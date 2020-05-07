@@ -1,18 +1,22 @@
 body {
-  font-family: "Cairo", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  min-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
 }
 
 .titleContainer {
   text-align: center;
-  font-weight: unset;
 }
 
 .images {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  grid-gap: 30px;
 }
-
 .gatsby-image-wrapper {
   height: 240px;
 }

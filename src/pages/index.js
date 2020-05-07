@@ -6,8 +6,8 @@ import Header from "../components/header.js"
 
 const IndexPage = () => {
   return (
-    <div>
-      <Header className="titleContainer" siteTitle="Sizden Gelen Güzellikler" siteDescription="Fotoğrafını bu sitede paylaşabilirsin" />
+    <div className="container">
+      <Header siteTitle="Sizden Gelen Güzellikler" siteDescription="Fotoğrafını bu sitede paylaşabilirsin" />
       <Images />
     </div>
   )
